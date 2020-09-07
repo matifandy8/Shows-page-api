@@ -1,4 +1,33 @@
+*{
+    margin: 0;
+}
+
+
 .grid-fluid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+}
+.show{
+    border: 1px solid #000;
+}
+
+.nav-top{
+    height: 70px;
+    width: 100%;
+    background-color: #444;
+}
+.nav-site {
+    height: 30px;
+    width: 100%;
+    background-color: #999;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
 }
